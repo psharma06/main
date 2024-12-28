@@ -1,0 +1,89 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background-image: url('./assets/images/landscape-snow.jpg');
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  overflow: auto;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 150px;
+  margin: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  margin: 10px 20px;
+  text-align: center;
+}
+
+main {
+  width: 60%;
+  height: 100%;
+}
+
+li {
+  margin-top: 20px;
+}
+
+.content {
+  font-size: 20px;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #FF512F 0%, #F09819 51%, #FF512F 100%)
+}
+
+.btn-grad {
+  width: 200px;
+  margin: 20px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: inline;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-container {
+  margin-left: 50px;
+  margin-top: 100px;
+  padding-top: 100px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-body {
+  backdrop-filter: blur(8px);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
